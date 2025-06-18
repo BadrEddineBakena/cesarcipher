@@ -165,13 +165,17 @@ void displayMsg() {
 
 
 int main(void) {
-   printf("=================================\n |\t\t CesarCipher\t\t\t | \n ===============================\n");
-   printf("Welcome to CesarCipher encryption tool , choose what you want:\n");
-   printf("1: encrypt a text\n");
-   printf("2: decrypt a text\n");
-   printf("3: encrypt a file\n");
-   printf("4: decrypt a file\n");
-   printf("5: exit\n");
+   printf("=====================================\n");
+   printf("||                                 ||\n");
+   printf("||         Caesar Cipher Tool      ||\n");
+   printf("||                                 ||\n");
+   printf("=====================================\n");
+   printf("Welcome to the Caesar Cipher encryption tool. Choose an option:\n");
+   printf("1: Encrypt a text\n");
+   printf("2: Decrypt a text\n");
+   printf("3: Encrypt a file\n");
+   printf("4: Decrypt a file\n");
+   printf("5: Exit\n");
    displayMsg();
    char buffer[10];
    int choice = 0;
